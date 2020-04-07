@@ -1,6 +1,6 @@
-const user = require('./user')
+const user_routes = require('./userRoutes')
 
 module.exports = app => {
-	app.use('/user', user)
+	app.use('/user', user_routes)
 }
 

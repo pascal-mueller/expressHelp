@@ -1,3 +1,4 @@
+//exports.users = require('./users');
 require('dotenv').config()
 
 const { Pool } = require('pg')
